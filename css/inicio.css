@@ -1,0 +1,19 @@
+.inicio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}
+
+.direita img{
+    height: 400px;
+    animation: zoomIn;
+    animation-duration: 1s;
+}
+.esquerda h1{
+    font-size: 50px;
+    width: 400px;
+}
+.esquerda h2{
+    font-size: 30px;
+}

@@ -1,0 +1,11 @@
+.rodape-conteudo{
+    display: flex;
+    justify-content: space-around;
+    background: #23232e;
+    height: 8vh;
+    align-items: center;
+}
+.rodape-conteudo a{
+    color: white;
+    font-size: 18px;
+}

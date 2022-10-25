@@ -1,0 +1,20 @@
+.sobre{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #23232e;
+    color: white;
+}
+.sobre h1{
+    font-size: 40px;
+}
+.sobre p{
+    font-size: 20px;
+}
+.sobre img{
+    height: 400px;
+    border: 2px solid aquamarine;
+    border-radius: 200px;
+}

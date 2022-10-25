@@ -1,0 +1,36 @@
+.projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: 500px;
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.projetos h1{
+    font-size: 40px;
+}
+
+.cards{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card{
+    background-color: aliceblue;
+    padding: 50px;
+    border: 2px solid aquamarine;
+    border-radius: 20px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}

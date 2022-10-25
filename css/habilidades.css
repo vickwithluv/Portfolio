@@ -1,0 +1,10 @@
+.habilidades{
+    height: 500px;
+    background-color: #23232e;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

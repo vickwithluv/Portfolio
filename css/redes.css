@@ -1,0 +1,52 @@
+.redes{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 50px;
+
+}
+.titulo-redes{
+    font-size: 40px;
+    color: #23232e;
+    margin-top: -50px;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    max-height: 180px;
+}
+
+.redes-sociais li a{
+    color: #FFF2E7;
+    display: block;
+    width: 400px;
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.redes-sociais .instagram{
+    background-color: rgb(219, 95, 178);
+}
+.redes-sociais .linkedin{
+    background-color: #01679b;
+}
+.redes-sociais .github{
+    background-color: #545454
+}
+/* .redes-sociais .wpp{
+    background-color: #3c8835
+} */
+
+.redes-sociais li a:hover{
+    opacity: 0.8;
+}
+
