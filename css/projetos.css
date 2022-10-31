@@ -22,7 +22,11 @@
 }
 
 .card{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    background-image: url(../assets/em\ breve\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
     padding: 50px;
     border: 2px solid aquamarine;
     border-radius: 20px;
