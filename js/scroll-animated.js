@@ -30,44 +30,24 @@ $('#aba1').on('click', function(e) {
                         },500);
                     })
                 
+// aaaaaaaaa
+const ids=["#inicio","#sobre","#projetos","#habilidades","#redes"]
 
 
 
-$(document).ready(function () {
-    $(document).on("scroll", onScroll);
-    //smoothscroll
-    $('a[href^="#"]').on('click', function (e) {
-        e.preventDefault();
-        $(document).off("scroll");
+document.querySelector("main").addEventListener("scroll", (e)=>{
+    const scrollTop = document.querySelector("main").scrollTop +(window.innerHeight/2)
+    
+    ids.forEach(id=>{
+       const offsetTop = document.querySelector(id).offsetTop +(document.querySelector(id).offsetHeight/2) -100
+       if (scrollTop > offsetTop){
+            document.querySelectorAll("header .nav-list a").forEach(element =>{
+                element.classList.remove("ativo")
+            })
+            document.querySelector(`a[href="${id}"]`).classList.add("ativo")
+       }
 
-        $('a').each(function () {
-            $(this).removeClass('ativo');
-        });
-            $(this).addClass('ativo');
-                        
+    })
+})
 
-            var target = this.hash,
-            menu = target;
-        $target = $(target);
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top+2
-        }, 400, 'swing', function () {
-            window.location.hash = target;
-            $(document).on("scroll", onScroll);});
-        });
-    });
 
-    function onScroll(event){
-        var scrollPos = $(document).scrollTop();
-        $('#nav-list a').each(function () {
-            var currLink = $(this);
-            var refElement = $(currLink.attr("href"));
-            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos-70) {
-                $('#nav-list ul li a').removeClass("ativo");
-                currLink.addClass("ativo");
-            }
-            else{currLink.removeClass("ativo");
-        }
-    });
-}
-                   
