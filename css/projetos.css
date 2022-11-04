@@ -37,9 +37,6 @@
 }
 
 #card1{
-    /* background-image: url(/Landing/assets/projeto\ 01.png);
-    background-size: cover;
-    background-repeat: no-repeat; */
     filter: blur(2px);
     cursor: pointer;
     transition: filter 0.3s ease-in-out; 
@@ -47,7 +44,6 @@
     overflow: hidden;
 }
 #card1:hover{
-
     filter: none;
 }
 

@@ -12,7 +12,7 @@ nav a{
     
 }
 nav a:hover{
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     color: #23232e;
     transition: 0.5;
 }
