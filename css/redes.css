@@ -5,7 +5,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 
 }
 .titulo-redes{
@@ -32,7 +32,27 @@
     transition: opacity 0.3s ease-in-out;
     border-radius: 10px;
 }
+#nickDiscord{
+    display: none;
+}
+.botao-discord{
+    border: none; 
+    border-radius: 10px; 
+    background-color: #7289da;
+    width: 400px;
+    text-align: center;
+    padding: 25px;
+    color: #FFF2E7;
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out; 
 
+}
+.botao-discord:hover{
+    opacity: 0.8;
+
+}
 .redes-sociais .instagram{
     background-color: rgb(219, 95, 178);
 }
@@ -42,11 +62,8 @@
 .redes-sociais .github{
     background-color: #545454
 }
-/* .redes-sociais .wpp{
-    background-color: #3c8835
-} */
+
 
 .redes-sociais li a:hover{
     opacity: 0.8;
 }
-

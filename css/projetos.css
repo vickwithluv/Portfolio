@@ -23,18 +23,64 @@
 
 .card{
     /* background-color: aliceblue; */
-    background-image: url(../assets/em\ breve\ 2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-
     padding: 50px;
     border: 2px solid aquamarine;
     border-radius: 20px;
-    width: 250px;
+    width: 240px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
+}
+
+#card1{
+    /* background-image: url(/Landing/assets/projeto\ 01.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    filter: blur(2px);
+    cursor: pointer;
+    transition: filter 0.3s ease-in-out; 
+    padding: 0;
+    overflow: hidden;
+}
+#card1:hover{
+
+    filter: none;
+}
+
+#card2{
+    filter: blur(2px);
+    cursor: pointer;
+    transition: filter 0.3s ease-in-out; 
+    padding: 0;
+    overflow: hidden;
+}
+#card2:hover{
+
+    filter: none;
+}
+#card3{
+    filter: blur(2px);
+    cursor: pointer;
+    transition: filter 0.3s ease-in-out; 
+    padding: 0;
+    overflow: hidden;
+}
+#card3:hover{
+
+    filter: none;
+}
+#card4{
+    filter: blur(2px);
+    cursor: pointer;
+    transition: filter 0.3s ease-in-out; 
+    padding: 0;
+    overflow: hidden;
+}
+#card4:hover{
+
+    filter: none;
 }

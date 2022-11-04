@@ -1,3 +1,4 @@
+// desce até a seção ao clicar na opção do menu
 $('#aba1').on('click', function(e) {
     console.log("teste")
         $('html,body').animate({
@@ -30,7 +31,7 @@ $('#aba1').on('click', function(e) {
                         },500);
                     })
                 
-// aaaaaaaaa
+// seleciona a seção ao descer até ela
 const ids=["#inicio","#sobre","#projetos","#habilidades","#redes"]
 
 
