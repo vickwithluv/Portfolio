@@ -8,7 +8,7 @@ abas.forEach(aba => {
         }
 
         selecionarAba(aba);
-        mostrarInformacaoDaAba(aba);
+        // mostrarInformacaoDaAba(aba);
     })
 })
 
@@ -20,8 +20,9 @@ function selecionarAba(aba){
 }
 
 function mostrarInformacaoDaAba(aba){
-    const informacaoSelecionada = document.querySelector(".abas.ativo")
-    informacaoSelecionada.classList.remove("ativo");
+    // const informacaoSelecionada = document.querySelector(".abas.ativo")
+    // console.log(informacaoSelecionada)
+    // informacaoSelecionada.classList.remove("ativo");
 
     const idDoElementoDeInformacaoDaAba = `informacao-${aba.id}`;
     const informacaoASerMostrada = document.getElementById(idDoElementoDeInformacaoDaAba);

@@ -9,12 +9,14 @@
 }
 .sobre h1{
     font-size: 40px;
+    margin-bottom: 10px;
 }
 .sobre p{
     font-size: 20px;
 }
 .sobre img{
-    height: 400px;
+    height: 300px;
     border: 2px solid aquamarine;
-    border-radius: 200px;
+    border-radius: 100px;
+    margin-left: 50px;
 }

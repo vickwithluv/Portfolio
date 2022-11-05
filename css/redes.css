@@ -47,12 +47,15 @@
     font-size: 20px;
     cursor: pointer;
     transition: opacity 0.3s ease-in-out; 
-
 }
 .botao-discord:hover{
     opacity: 0.8;
-
 }
+
+.botao-discord:active{
+    background: #727272;
+}
+
 .redes-sociais .instagram{
     background-color: rgb(219, 95, 178);
 }
