@@ -2,28 +2,28 @@
 $('#aba1').on('click', function(e) {
     console.log($('#sobre').offset().top)
         $('html,main').animate({
-          scrollTop: $('#sobre').offset().top
+          scrollTop: $('#sobre').offset().top 
         },500);
     })
 
 $('#aba2').on('click', function(e) {
     console.log("teste")
         $('html,main').animate({
-          scrollTop: $('#projetos').offset().top
+          scrollTop: $('#projetos').offset().top 
         },500);
     })
 
 $('#aba3').on('click', function(e) {
     console.log("teste")
         $('html,main').animate({
-          scrollTop: $('#redes').offset().top
+          scrollTop: $('#habilidades').offset().top 
         },500);
     })
 
 $('#aba4').on('click', function(e) {
     console.log("teste")
         $('html,main').animate({
-          scrollTop: $('#habilidades').offset().top
+          scrollTop: $('#redes').offset().top
         },500);
     })
 
